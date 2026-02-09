@@ -51,3 +51,21 @@ The app then predicts diabetes risk in real time using the trained model.
 ├── rf_model.pkl           # Trained Random Forest model
 ├── feature_columns.pkl    # Feature structure used during training
 ├── README.md              # Project documentation
+
+
+▶️ How to Run the Application
+
+Install dependencies:
+
+pip install streamlit pandas numpy scikit-learn joblib
+
+
+Run the app:
+
+streamlit run app.py
+
+🏆 Kaggle Competition
+
+Competition: Diabetes Prediction Challenge – Playground Series Season 5, Episode 12
+
+Public leaderboard submission completed as part of the coursework
